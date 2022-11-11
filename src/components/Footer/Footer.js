@@ -29,13 +29,13 @@ export const Footer = () => {
             <ul className="footerNav">
                 <li>
                     {categories.map(cat => (
-                        <Link key={cat.id} to={`/category/${cat.slug}`} className={({isActive}) => isActive? 'categoriaActivaNavbar' : 'categoriaNavbar'}>{cat.label}</Link>
+                        <Link key={cat.id} to={`/category/${cat.slug}`}>{cat.label}</Link>
                     ))}
                 </li>
             </ul>
             <p>Desarrollado por <a href="../index.html">Camila Quirós</a></p>
         </div>
-        <ul class="socials">
+        <ul className="socials">
             <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-instagram"></i>
                 <p>Instagram</p>
