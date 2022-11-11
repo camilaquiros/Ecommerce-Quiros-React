@@ -19,7 +19,7 @@
 .detailInterior{
     display: grid;
     grid-template-columns: repeat(2, 6fr);
-    grid-template-rows: 1fr 2fr 0.5fr 1.5fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr 2fr;
     align-content: center;
     justify-items: center;
     align-items: center;
@@ -72,6 +72,13 @@
     border-radius: 10px;
     border: 3px dashed $negro;
     z-index: 3;
+}
+
+.stockNumber{
+    p{
+        font-size: 1vw;
+        padding-top: 5px;
+    }
 }
 
 .buttonQuantity{
