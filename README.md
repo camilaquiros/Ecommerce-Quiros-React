@@ -28,9 +28,9 @@ REACT_APP_appId=
 ```
 
 ## Librerías extras utilizadas
-- [Font Awesome](https://fontawesome.com/docs/web/use-with/react/add-icons#add-individual-icons-explicitly)
-- [Sweet Alert 2](https://sweetalert2.github.io)
-- [Sass](https://sass-lang.com/install)
+📚 [Font Awesome](https://fontawesome.com/docs/web/use-with/react/add-icons#add-individual-icons-explicitly)
+📚 [Sweet Alert 2](https://sweetalert2.github.io)
+📚 [Sass](https://sass-lang.com/install)
 
 > *Nota: Todas las librerias se encuentran en package.json y ***no*** es necesario instalarlas aparte*
 
